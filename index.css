@@ -21,6 +21,9 @@ nav ul{position:relative;margin:0px; padding:2px;}
   clear: both;
 }
 
+
+a{text-decoration: none;}
+
 /* unvisited link */
 a:link {
   color: black;
