@@ -23,12 +23,12 @@ nav ul{position:relative;margin:0px; padding:2px;}
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: black;
 }
 
 /* visited link */
 a:visited {
-  color: green;
+  color: red;
 }
 
 /* mouse over link */
