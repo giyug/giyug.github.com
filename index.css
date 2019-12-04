@@ -3,6 +3,26 @@ nav ul{position:relative;margin:0px; padding:2px;}
  ul li{display:inline;} 
 */
 
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 #topMenu { /* topMenu의 ID를 가진 태그의 스타일 지정 */
   height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐) */
   width: 1200px; /* topMenu의 넓이를 850px로 설정(제대로 설정 안하면 브라우져 넓이가 좁아지면 깨짐) */
