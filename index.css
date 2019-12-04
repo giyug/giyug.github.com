@@ -22,7 +22,7 @@ nav ul{position:relative;margin:0px; padding:2px;}
 }
 
 
-a {
+a:link {
  text-decoration: none;
  color: black;
 }
