@@ -22,26 +22,9 @@ nav ul{position:relative;margin:0px; padding:2px;}
 }
 
 
-a{text-decoration: none;}
-
-/* unvisited link */
-a:link {
-  color: black;
-}
-
-/* visited link */
-a:visited {
-  color: green;
-}
-
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+a {
+ text-decoration: none;
+ color: black;
 }
 
 #topMenu { /* topMenu의 ID를 가진 태그의 스타일 지정 */
