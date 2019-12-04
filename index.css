@@ -26,6 +26,10 @@ a {
  text-decoration: none;
  color: black;
 }
+a:hover {
+  color: blue;
+}
+
 
 #topMenu { /* topMenu의 ID를 가진 태그의 스타일 지정 */
   height: 30px; /* topMenu의 높이를 30px로 설정(제대로 설정 안하면 아래 내용이 깨짐) */
