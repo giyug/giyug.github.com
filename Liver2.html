@@ -3,13 +3,15 @@
 <head>
   <link rel="stylesheet" type="text/css" href="mystyle.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="/js/includeHTML.js"></script>
+
 </head>
+
+<script src="./js/includeHTML.html"></script>
+
 <body>
 
-<header w3-include-html="/js/header.html"></header>
+<div w3-include-html="./js/header.html"></div>
 
-<!-- <p id="lft"><h3>간수치</h3></p> -->
 <h3 id="lft" style="display:inline">간수치</h3>
 <br><br>
 <details>
@@ -593,5 +595,10 @@
 &nbsp; &nbsp;
 <a href="#init" style="color:green;font-weight:bold;font-size:16px;"><i>맨위로</i></a>
 <br><br>
+
+<script>
+includeHTML();
+</script>
+
 </body>
 </html>
